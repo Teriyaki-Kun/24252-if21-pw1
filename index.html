@@ -66,11 +66,14 @@
     <!-- 2 baris pada kolom pertama digabung -->
      <table border="2">
      <tr>
-        <td rowspan="2"> IF21 </td>
+        <td rowspan="3"> IF21 </td>
         <td>Michael</td>
      </tr>
      <tr>
         <td>Leo</td>
+     </tr>
+     <tr>
+        <td>Savero</td>
      </tr>
     </table>
 
@@ -95,9 +98,47 @@
             <td>100</td>
             
         </tr>
+        <tr>
+            <td>2</td>
+            <td>Savero</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Leo</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            
+        </tr>
+        <tr>
+            <td colspan="2">Rata - Rata</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
     
         
     </table>
+
+    <h2>Formulir</h2>
+    <form action="proses.php" method="post">
+        Nama <br>
+        <input type="text" name="nama" id="nama" required><br>
+        <input type="email" name="email" id="email" required><br>
+        Jenis Kelamin <br>
+        <input type="radio" name="jk" id="" value="L"> Laki - Laki 
+        <input type="radio" name="jk" id="" value="P">Perempuan <br>
+        Tempat Lahir
+        <select name="tempat_lahir" id="tempat_lahir">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+            <option value="LLG">Lubuklinggau</option>
+        </select>
+    </form>
 
 
 
