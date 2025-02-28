@@ -1,0 +1,19 @@
+<style>
+        /*element selector */
+        body{
+            background-color: aliceblue;
+            font-family: 'Times New Roman';
+        }
+        .text-danger {
+            color: red;
+        }
+        .bg-success {
+            background-color: green;
+        }
+        .textkuning{
+            color: yellow;
+        }
+        .bgBiru{
+            background-color: blue;
+        }
+        <</style>
